@@ -1,0 +1,13 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner bobesponja = new Scanner(System.in);
+		float preco  = bobesponja.nextFloat();
+		float qnt = bobesponja.nextFloat();
+		float precot =preco*qnt;
+		System.out.println (precot);
+	}
+}
