@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner ratue = new Scanner(System.in);
+        float salario=ratue.nextFloat();
+        float gastos=ratue.nextFloat();
+        float sobra=(salario-gastos);
+        if (salario>gastos){
+            System.out.println("Sobra do seu salario: "+sobra+" reais");
+        }else{
+            System.out.println("Falta no seu salario:"+sobra+" reais");
+        }
+}
+}
