@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+     Scanner ratue = new Scanner(System.in);
+     int velcarro =ratue.nextInt();
+     if(velcarro<=80){
+         System.out.println("Você esta dentro da velociade permitida");
+     }else{
+         System.out.println("Você esta fora da velocidade permitida");
+     }
+    }
+}
