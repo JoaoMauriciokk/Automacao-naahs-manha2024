@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+       Scanner ratue = new Scanner(System.in);
+       System.out.println("Digite sua media:");
+       float media= ratue.nextFloat();
+       System.out.println("Digite quantas faltas:");
+       int faltas = ratue.nextInt();
+       
+       if (media >= 6){
+            if(faltas<=20){
+                System.out.println("Você foi aprovado");
+            } else{
+            System.out.println("Você foi reprovado");
+             }
+       }else{
+           System.out.println("Você foi reprovado");
+       }
+           
+       }
+    }
